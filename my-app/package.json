@@ -2,12 +2,15 @@
   "name": "my-app",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://p4lten.github.io/petori_wedding.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "main -d dist"
   },
   "dependencies": {
     "react": "^19.1.1",
