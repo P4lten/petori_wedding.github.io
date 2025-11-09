@@ -1,0 +1,39 @@
+.square {
+  width: 15px;
+  height: 15px;
+  background-color: blue;
+  margin-right: 10px;
+}
+
+.container {
+  display: flex;
+  background-color: lightgray;
+  justify-content: space-between;
+  width: 100vw;
+  top: 0;
+  position: fixed;
+}
+
+.header {
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 10px;
+  color: black;
+}
+
+p {
+  font-size: 130%;
+  display: inline-block;
+  margin: 0;
+}
+
+span {
+  font-weight: 700;
+}
+
+div {
+  display: inline-block;
+}
