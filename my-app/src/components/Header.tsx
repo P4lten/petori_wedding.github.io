@@ -1,25 +1,24 @@
-import "./Header.css"
+import classes from "./Header.module.css";
 
-function Header(){
+function Header() {
 
-    return(
-        <>
-        <header>
-            <div>
-                Menu 1
-            </div>
-             <div>
-                Menu 2
-            </div>
-             <div>
-                Menu 3
-            </div>
-             <div>
-                Menu 4
-        
-            </div>
+    return (
+        <header className={classes.container}>
+            <ul>
+                <li>
+                    <a>Menu 1</a>
+                </li>
+                <li>
+                    <a>Menu 2</a>
+                </li>
+                <li>
+                    <a>Menu 3</a>
+                </li>
+                <li>
+                    <a>Menu 4</a>
+                </li>
+            </ul>
         </header>
-        </>
     )
 }
 
