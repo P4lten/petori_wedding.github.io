@@ -6,16 +6,16 @@ function Header() {
         <header className={classes.container}>
             <ul>
                 <li>
-                    <a>Menu 1</a>
+                    <a>Start</a>
                 </li>
                 <li>
-                    <a>Menu 2</a>
+                    <a>Infos</a>
                 </li>
                 <li>
-                    <a>Menu 3</a>
+                    <a>Line-Up</a>
                 </li>
                 <li>
-                    <a>Menu 4</a>
+                    <a>Anreise</a>
                 </li>
             </ul>
         </header>
