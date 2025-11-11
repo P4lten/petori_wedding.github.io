@@ -21,10 +21,10 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
-    padding-top: 80px; /* pushes slideshow below the fixed header */
-  max-width: 100%;
   position: relative;
-  margin: auto;
+  margin: 0 auto;
+  max-width: 100%;
+
 }
 
 /* Next & previous buttons */

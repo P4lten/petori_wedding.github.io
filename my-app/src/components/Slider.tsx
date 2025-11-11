@@ -30,7 +30,7 @@ function Slider() {
     }, []);
 
     return (
-        <div>
+        <>
             <div className="slideshow-container">
                 {images.map((image, i) => (
                     <div
@@ -53,7 +53,7 @@ function Slider() {
                     ></span>
                 ))}
             </div>
-        </div>
+        </>
     );
 };
 
