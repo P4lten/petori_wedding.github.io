@@ -2,6 +2,7 @@
   width: 100%;
   position: static;
   bottom: 0;
+    min-width: 320px;
 }
 
 .container ul {
@@ -28,13 +29,13 @@ ul li a:hover {
   color: rgb(160, 0, 0);
 }
 
-/* 📱 Responsive Design für kleine Bildschirme */
+/* 📱 Responsive Design für kleine Bildschirme 
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    position: fixed;
+    position: fixed; 
     bottom: 0;
   }
 
@@ -48,3 +49,4 @@ ul li a:hover {
     border-top: 1px solid #444;
   }
 }
+  */
