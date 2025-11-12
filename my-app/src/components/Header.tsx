@@ -11,7 +11,7 @@ interface HeaderProps {
 
 function Header({ onToggleSlider }: HeaderProps) {
 
-    const [activeMenu, setActiveMenu] = useState<string>("");
+    const [activeMenu, setActiveMenu] = useState<string>("menu1");
     const [isOpen, setIsOpen] = useState(false);
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 

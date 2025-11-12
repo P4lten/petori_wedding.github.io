@@ -33,9 +33,11 @@ function Start() {
 
     return (
         <>
+            <h2>Nur noch</h2>
             <div style={{ fontSize: "1.5rem", textAlign: "center" }}>
                 {timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s
             </div>
+            <h2>bis zum Petori Festival</h2>
         </>
     )
 }
