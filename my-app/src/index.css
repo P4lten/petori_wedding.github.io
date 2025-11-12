@@ -24,12 +24,16 @@ a:hover {
 }
 */
 body {
-  margin: 0;
+
   padding: 0;
   display: flex;
   height: 100%;
+  width: 100%;
   min-width: 320px;
   min-height: 100vh;
+  align-items: center; 
+  justify-content: center;
+  flex-direction: column;
 }
 
 h1 {
