@@ -16,12 +16,7 @@ function Header({ onToggleSlider }: HeaderProps) {
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
     const handleMenuClick = (menuName: string) => {
-        // Wenn das Menü bereits aktiv ist, wieder schließen
-        if (activeMenu === menuName) {
-            setActiveMenu("");
-        } else {
-            setActiveMenu(menuName);
-        }
+        setActiveMenu(menuName);
     };
 
 

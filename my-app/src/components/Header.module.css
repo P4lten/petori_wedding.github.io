@@ -121,7 +121,12 @@ ul li a:hover {
 }
 
 .sidepanel a:hover {
-  color: #00bfff;
+  color: rgb(160, 0, 0);
+  transform: translateX(5px);
+}
+
+.sidepanel h2:hover {
+  color:  rgb(160, 0, 0);
   transform: translateX(5px);
 }
 
