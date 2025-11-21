@@ -57,7 +57,7 @@ function Header({ onToggleSlider }: HeaderProps) {
                     </li>
                     <li>
                         <a onClick={(e) => { e.preventDefault(); handleMenuClick("menu2"); togglePanel(); onToggleSlider(""); }}>
-                            Infos
+                            Infos & FAQ
                         </a>
                     </li>
                     <li>
@@ -90,7 +90,7 @@ function Header({ onToggleSlider }: HeaderProps) {
                     </li>
                     <li>
                         <a onClick={(e) => { e.preventDefault(); handleMenuClick("menu2"); onToggleSlider(""); }}>
-                            Infos
+                            Infos & FAQ
                         </a>
                     </li>
                     <li>

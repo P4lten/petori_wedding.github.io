@@ -1,0 +1,14 @@
+.side{
+    padding-top: 50px;
+}
+
+.container{
+    display: flex;
+    min-width: 100vh;
+
+    min-height: 100vh;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+}
+
