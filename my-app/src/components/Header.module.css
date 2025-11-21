@@ -55,7 +55,8 @@ ul li a:hover {
   left: -260px;
   height: 100vh;
   width: 240px;
-  background-color: #222;
+  background-color: #333;
+  opacity: 80%;
   color: white;
   padding: 1rem;
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
