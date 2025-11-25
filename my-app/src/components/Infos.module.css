@@ -1,0 +1,23 @@
+.side{
+    padding-top: 50px;
+}
+
+.container{
+    display: flex;
+    width: 100vh;
+    min-height: 100vh;
+    align-items: center; 
+    flex-direction: column;
+    padding: 15px;
+}
+
+@media screen and (max-width: 768px) {
+.container{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center; 
+    flex-direction: column;
+    padding: 15px;
+}
+}

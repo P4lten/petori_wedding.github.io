@@ -1,0 +1,52 @@
+.container {
+  width: 100%;
+  position: static;
+  bottom: 0;
+    min-width: 320px;
+}
+
+.container ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+
+.container ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+  color: rgb(160, 0, 0);
+}
+
+/* 📱 Responsive Design für kleine Bildschirme 
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: fixed; 
+    bottom: 0;
+  }
+
+  ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  ul li a {
+    padding: 10px;
+    border-top: 1px solid #444;
+  }
+}
+  */
