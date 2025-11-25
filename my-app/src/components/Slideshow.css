@@ -13,6 +13,7 @@ body {
 
 .mySlides.active {
   display: block;
+    background-color: #000000;
 }
 
 img {

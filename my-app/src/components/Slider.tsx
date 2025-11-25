@@ -1,14 +1,23 @@
 import { useEffect, useState } from "react";
 import "./Slideshow.css"
 
-import img1 from "../../assets/images/Hochzeit-1403-12.jpg";
-import img2 from "../../assets/images/Hochzeit-1403-13.jpg";
-import img3 from "../../assets/images/Hochzeit-1403-14.jpg";
+import img1 from "../../assets/images/Hochzeit-1403-web-12.jpg";
+import img2 from "../../assets/images/Hochzeit-1403-web-13.jpg";
+import img3 from "../../assets/images/Hochzeit-1403-web-14.jpg";
+import img4 from "../../assets/images/Konzert0.jpg";
+import img5 from "../../assets/images/Konzert1.jpg";
+import img6 from "../../assets/images/Konzert2.jpg";
+import img7 from "../../assets/images/Konzert3.jpg";
+
 
 const images = [
     { src: img1 },
+    { src: img7 },
     { src: img2 },
+    { src: img5 },
     { src: img3 },
+    { src: img6 },
+    { src: img4 },
 ];
 
 
@@ -38,7 +47,7 @@ function Slider() {
                         className={`mySlides fade ${i === slideIndex ? "active" : ""}`}
                         style={{ display: i === slideIndex ? "block" : "none" }}
                     >
-                        <img src={image.src} alt={`Slide ${i + 1}`} style={{ width: "100%" }} />
+                        <img src={image.src} alt={`Slide ${i + 1}`} style={{ width: "100vh" }} />
                     </div>
                 ))}
             </div>
