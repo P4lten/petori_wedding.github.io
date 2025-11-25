@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import classes from "./Start.module.css"
 
 function Start() {
 
@@ -33,6 +34,9 @@ function Start() {
 
     return (
         <>
+            <div className={classes.marquee}>
+                <span>Zu- oder Absagen bis Ende Dezember bitte!!!</span>
+            </div>
             <h2>Nur noch</h2>
             <div style={{ fontSize: "1.5rem", textAlign: "center" }}>
                 {timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s
