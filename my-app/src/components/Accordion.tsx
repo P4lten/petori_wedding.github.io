@@ -2,10 +2,10 @@ import { useState } from "react";
 import classes from "./Accordion.module.css"
 
 interface AccodionProps {
-    title: string, text: string
+    title: string, text: string, imageSrc: string, imgAlt: string
 }
 
-function Accodion({ title, text }: AccodionProps) {
+function Accodion({ title, text, imageSrc, imgAlt }: AccodionProps) {
 
     const [isActive, setIsActive] = useState(false)
 
@@ -18,9 +18,10 @@ function Accodion({ title, text }: AccodionProps) {
                 <div>{isActive ? '-' : '+'}</div>
             </div>
             {isActive && <>
-                <div className={classes.accordionText}>
+                <div className={classes.accordionText} style={{ whiteSpace: "pre-line" }}>
                     {text}
                 </div>
+                <img src={imageSrc} alt={imgAlt} />
             </>}
         </div>
 

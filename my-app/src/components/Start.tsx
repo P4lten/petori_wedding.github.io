@@ -35,7 +35,7 @@ function Start() {
     return (
         <>
             <div className={classes.marquee}>
-                <span>Zu- oder Absagen bis Ende Dezember bitte!!!</span>
+                <span>Wir bitten um Zu- oder Absagen bis Ende Dezember !!!</span>
             </div>
             <h2>Nur noch</h2>
             <div style={{ fontSize: "1.5rem", textAlign: "center" }}>

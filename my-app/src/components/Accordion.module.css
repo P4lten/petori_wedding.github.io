@@ -23,4 +23,9 @@ padding: 5px;
     align-items: center; 
     justify-content: center;
     flex-direction: row;
+    white-space: "pre-line" 
+}
+
+img{
+      width: 360px;
 }
