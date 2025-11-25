@@ -4,6 +4,7 @@
   white-space: nowrap;
   box-sizing: border-box;
   color: rgb(160, 0, 0);
+  padding-top: 70px;
 }
 
 .marquee span {
