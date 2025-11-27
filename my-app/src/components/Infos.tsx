@@ -4,6 +4,7 @@ import whisky from "../../assets/images/whisky.jpeg"
 import trichterverbot from "../../assets/images/trichterverbot2.png"
 import pflanzenverbot from "../../assets/images/pflanzenverbot2.png"
 import prost from "../../assets/images/prost.png"
+import whisky_schlafen from "../../assets/images/whisky_schlafen.png"
 
 function Infos() {
 
@@ -46,8 +47,8 @@ function Infos() {
                         
                         Oder sonst was in Horn, wir schreiben euch ja nicht vor, wo ihr buchen sollt ;)
                         "
-                        imageSrc=""
-                        imgAlt="" />
+                        imageSrc={whisky_schlafen}
+                        imgAlt="schläfrige katze" />
 
                     <Accodion title="Geschenke"
                         text="Bitte keine Pflanzen, davon haben wir genug daheim!!!
