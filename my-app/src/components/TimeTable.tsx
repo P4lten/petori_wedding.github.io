@@ -6,7 +6,7 @@ function TimeTable() {
         <div className={classes.page}>
             <h1>Time-Table</h1>
             <div className={classes.container}>
-                <img src={timeTable} className={classes.image}></img>
+                <img src={timeTable} className={classes.image} alt="Time table des Festivals"></img>
             </div>
         </div>
     </>)
