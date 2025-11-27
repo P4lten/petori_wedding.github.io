@@ -28,9 +28,6 @@ function Slider() {
         setSlideIndex((prev) => (prev + n + images.length) % images.length);
     };
 
-    const currentSlide = (n: number) => {
-        setSlideIndex(n);
-    };
 
     useEffect(() => {
         const timer = setInterval(() => nextSlide(1), 5000);
