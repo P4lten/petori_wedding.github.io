@@ -46,19 +46,8 @@ function Slider() {
                         className={`mySlides fade ${i === slideIndex ? "active" : ""}`}
                         style={{ display: i === slideIndex ? "block" : "none" }}
                     >
-                        <img src={image.src} alt={`Slide ${i + 1}`} style={{ width: "100%", height: "auto" }} />
+                        <img src={image.src} alt={`Slide ${i + 1}`} style={{ width: "100%", height: "auto", maxWidth: "1280px" }} />
                     </div>
-                ))}
-            </div>
-
-            <br />
-            <div style={{ textAlign: "center" }}>
-                {images.map((_, i) => (
-                    <span
-                        key={i}
-                        className={`dot ${i === slideIndex ? "active" : ""}`}
-                        onClick={() => currentSlide(i)}
-                    ></span>
                 ))}
             </div>
         </>

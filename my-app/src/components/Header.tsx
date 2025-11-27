@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import classes from "./Header.module.css";
 import Start from "./Start";
 import Infos from "./Infos";
-import LineUp from "./LineUp";
+import TimeTable from "./TimeTable";
 import Anreise from "./Anreise";
 
 interface HeaderProps {
@@ -75,7 +75,7 @@ function Header({ onToggleSlider }: HeaderProps) {
             <main className="content">
                 {activeMenu === "menu1" && <Start />}
                 {activeMenu === "menu2" && <Infos />}
-                {activeMenu === "menu3" && <LineUp />}
+                {activeMenu === "menu3" && <TimeTable />}
                 {activeMenu === "menu4" && <Anreise />}
             </main>
 
@@ -109,7 +109,7 @@ function Header({ onToggleSlider }: HeaderProps) {
             <main className="content">
                 {activeMenu === "menu1" && <Start />}
                 {activeMenu === "menu2" && <Infos />}
-                {activeMenu === "menu3" && <LineUp />}
+                {activeMenu === "menu3" && <TimeTable />}
                 {activeMenu === "menu4" && <Anreise />}
             </main> </>)}
     </>
