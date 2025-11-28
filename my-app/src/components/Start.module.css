@@ -15,6 +15,11 @@
   font-weight: bold;
 }
 
+.picture{
+  width: 100%;
+  padding-bottom: 5ch;
+}
+
 @keyframes scroll {
   0%   { transform: translateX(0); }
   100% { transform: translateX(-100%); }

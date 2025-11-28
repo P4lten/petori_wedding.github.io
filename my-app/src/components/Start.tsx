@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import classes from "./Start.module.css"
+import petori from "../../assets/images/Petori2.jpeg"
 
 function Start() {
 
@@ -41,7 +42,9 @@ function Start() {
             <div style={{ fontSize: "1.5rem", textAlign: "center" }}>
                 {timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s
             </div>
-            <h2>bis zum Petori Festival</h2>
+            <h2>bis</h2>
+            <img className={classes.picture} src={petori} alt="Bild von Petori überschrift" />
+
         </>
     )
 }

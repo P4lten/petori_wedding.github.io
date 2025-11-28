@@ -69,8 +69,8 @@ function Header({ onToggleSlider }: HeaderProps) {
                         </a>
                     </li>
                     <li>
-                        <a onClick={(e) => { e.preventDefault(); handleMenuClick("menu3"); onToggleSlider(""); }}>
-                            Time-Table
+                        <a onClick={(e) => { e.preventDefault(); handleMenuClick("menu7"); onToggleSlider(""); }}>
+                            Lineup
                         </a>
                     </li>
                     <li>

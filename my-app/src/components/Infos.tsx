@@ -17,13 +17,16 @@ function Infos() {
                 <div className={classes.container}>
 
                     <Accodion title="Beginn"
-                        text="Auf der Einladung steht zwar das man schon um 11:30 kommen kann, das heißt aber nicht das ihr zu der Zeit auch kommen müsst.
-                                Das ist nur für die Leute die sich dort in ihrere Unterkunft zurechtmachen, offizieller start des Fesivals ist um 13:00Uhr!"
+                        text="Bitte beachtet, dass *ab* 11:30 am Time-Table steht. Es bedeutet nicht, dass ihr zu der Zeit schon da sein müsst. 
+                                Aber ihr könnt.
+                                Offizieller Start des Fesivals ist
+                                *um* 13:00 Uhr! - 
+                                Das aber pünktlich!"
                         imageSrc={prost}
                         imgAlt="zwei menschen beim anstoßen mit bier" />
 
                     <Accodion title="Unterkunft"
-                        text="Wer noch keine Unterkunft hat hier eine Liste von Unterkünften die es in der Nähe sind:
+                        text="Wer noch keine Unterkunft hat, hier eine Liste von Unterkünften, die es in der Nähe gibt:
 
                         Gallien
                         Gallien 1
@@ -45,29 +48,37 @@ function Infos() {
                         https://www.hotelblie.at/
                         hotel@blie.at
                         
-                        Oder sonst was in Horn, wir schreiben euch ja nicht vor, wo ihr buchen sollt ;)
+                        Oder sonst was in Horn, wir schreiben euch ja nicht vor, wo ihr schlafen sollt. ;)
                         "
                         imageSrc={whisky_schlafen}
                         imgAlt="schläfrige katze" />
 
                     <Accodion title="Geschenke"
-                        text="Bitte keine Pflanzen, davon haben wir genug daheim!!!
-                                Über was wir uns immer freuen ist eine aufstockung unserer Urlaubskassa, da wir sehr gerne verreisen."
+                        text="Bitte keine Pflanzen, davon haben wir genug im Garten - wo sie hingehören!!!
+                                Worüber wir uns immer freuen, ist eine Aufstockung unserer Urlaubskassa."
                         imageSrc={pflanzenverbot}
                         imgAlt="pflanzenverbot schild" />
 
                     <Accodion title="Ablauf"
-                        text="Siehe Time-Table im Menü oben"
+                        text="Siehe Time-Table im Menü oben."
                         imageSrc=""
                         imgAlt="" />
 
                     <Accodion title="Trichter"
-                        text="Auch wenn wir ein Festival Thema haben, herrscht am ganzen Gelände Trichterverbot, da es dadurch sehr leicht zu Ausschreitungen kommen kann!"
+                        text="Auch wenn wir ein (Hochzeits-)Festival feiern, herrscht am ganzen Gelände Trichterverbot, da es dadurch sehr leicht zu Ausschreitungen kommen kann!"
                         imageSrc={trichterverbot}
                         imgAlt="trichterverbotsschild" />
 
                     <Accodion title="Ticket Verkauf"
-                        text=" Diese Tickets kann man nicht verkaufen, was glaubst du eigentlich?!"
+                        text="§ 1 Verbot des Erwerbs und der Veräußerung von Karten
+                                (1) Der Erwerb, die entgeltliche oder unentgeltliche Weitergabe sowie jede sonstige Form des Handels mit den bezeichneten Karten sind untersagt.
+                                (2) Zuwiderhandlungen gegen Absatz 1 stellen eine unzulässige Umgehung der vorgesehenen Nutzungsbestimmungen dar und sind nach PETORI-Gesetz rechtswidrig.
+                                § 2 Rechtsfolgen bei Verstößen
+                                (1) Verstöße gegen dieses Verbot können PETORI-rechtlich geahndet werden. 
+                                (2) Sollte der Verstoß unter Alkoholeinfluss erfolgt sein, wird dies zusätzlich als „alkoholisch bedenkliches Fehlverhalten“ gewertet. Dies kann zu weiteren Maßnahmen führen, darunter: böse Blicke, erhobene Zeigefinger und Shots zur Bestrafung.
+                                (3) Betroffene haben sich alle belehrenden Hinweise ohne Augenrollen anzuhören.
+                                § 3 Sofortige Geltung
+                                Dieses Verbot tritt sofort nach Erhalt der Karte in Kraft. Jeder Versuch, es zu umgehen, gilt automatisch als gescheitert."
                         imageSrc={whisky}
                         imgAlt="katze namens whisky" />
 
