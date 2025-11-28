@@ -23,7 +23,7 @@ function Infos() {
                         imgAlt="zwei menschen beim anstoßen mit bier" />
 
                     <Accodion title="Unterkunft"
-                        text="Wer noch keine Unterkunft hat hier eine Liste von unterkünften die es in der Nähe sind:
+                        text="Wer noch keine Unterkunft hat hier eine Liste von Unterkünften die es in der Nähe sind:
 
                         Gallien
                         Gallien 1
