@@ -29,6 +29,14 @@ img {
   
 }
 
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  top: 0;
+}
+
 .mySlides {
   width: 100%;
 }

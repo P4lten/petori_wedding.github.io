@@ -45,6 +45,9 @@ function Slider() {
                         className={`mySlides fade ${i === slideIndex ? "active" : ""}`}
                         style={{ display: i === slideIndex ? "block" : "none" }}
                     >
+                        <div className="numbertext">
+                            {i + 1} / {images.length}
+                        </div>
                         <img src={image.src} alt={`Slide ${i + 1}`} style={{ width: "100%", height: "auto", maxWidth: "1280px" }} />
                     </div>
                 ))}
