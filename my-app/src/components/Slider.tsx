@@ -8,9 +8,11 @@ import img3 from "../../assets/images/Hochzeit-1403-web-14.jpg";
 import img5 from "../../assets/images/Konzert1.jpg";
 import img6 from "../../assets/images/Konzert2.jpg";
 import img7 from "../../assets/images/Konzert3.jpg";
+import logo from "../../assets/images/logo.jpeg"
 
 
 const images = [
+    { src: logo },
     { src: img1 },
     { src: img7 },
     { src: img2 },

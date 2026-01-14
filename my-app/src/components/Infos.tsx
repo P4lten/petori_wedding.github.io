@@ -5,6 +5,7 @@ import trichterverbot from "../../assets/images/trichterverbot2.png"
 import pflanzenverbot from "../../assets/images/pflanzenverbot2.png"
 import prost from "../../assets/images/prost.png"
 import whisky_schlafen from "../../assets/images/whisky_schlafen.png"
+import zebras from "../../assets/images/zebras.png"
 
 function Infos() {
 
@@ -15,6 +16,13 @@ function Infos() {
             <div className={classes.side}>
                 <h1>Allgemeines</h1>
                 <div className={classes.container}>
+
+                    <Accodion title="Dresscode"
+                        text="Unser Dresscode lautet „Black & White“ – alles ist erlaubt, solange es schwarz, weiß oder beides zusammen ist. 🖤🤍
+                        Bitte denkt an den festlichen Rahmen einer Hochzeit: Anzug, Kleid, Bluse & Co. sind perfekt. 
+                        Band-T-Shirts dürfen an diesem Tag also ausnahmsweise zu Hause bleiben und die Bühne dem Brautpaar überlassen. 🎤😉"
+                        imageSrc={zebras}
+                        imgAlt="zwei zebras in eleganter Kleidung" />
 
                     <Accodion title="Beginn"
                         text="Bitte beachtet, dass *ab* 11:30 am Time-Table steht. Es bedeutet nicht, dass ihr zu der Zeit schon da sein müsst. 
