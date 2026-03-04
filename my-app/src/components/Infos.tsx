@@ -18,9 +18,10 @@ function Infos() {
                 <div className={classes.container}>
 
                     <Accodion title="Dresscode"
-                        text="Unser Dresscode lautet „Black & White“ – alles ist erlaubt, solange es schwarz, weiß oder beides zusammen ist. 🖤🤍
-                        Bitte denkt an den festlichen Rahmen einer Hochzeit: Anzug, Kleid, Bluse & Co. sind perfekt. 
-                        Band-T-Shirts dürfen an diesem Tag also ausnahmsweise zu Hause bleiben und die Bühne dem Brautpaar überlassen. 🎤😉"
+                        text="Der Dresscode für unser Hochzeits-Festival PETORI lautet „Black & White“ - alles in schwarz, weiß oder einer Mischung aus beidem ist erlaubt. 🖤🤍
+                        Trotz Festival-Thema bedenkt bitte den festlichen Rahmen einer Hochzeit: 
+                        Anzug, Kleid, elegante Kombi, Tracht etc. sind perfekt.
+                        Die heißgeliebten Bandshirts dürfen ausnahmsweise zu Hause bleiben. Überlasst mal wieder der eleganten Kleidung die Bühne. 😉"
                         imageSrc={zebras}
                         imgAlt="zwei zebras in eleganter Kleidung" />
 

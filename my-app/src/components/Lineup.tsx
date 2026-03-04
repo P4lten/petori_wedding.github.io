@@ -1,14 +1,15 @@
-//import lineup from "../../assets/images/lineup.jpg
+import lineup_essen from "../../assets/images/lineup_essen.jpg"
+import lineup_getränke from "../../assets/images/lineup_getränke.jpg"
 import classes from "./LineUp.module.css"
 
 function Lineup() {
     return (<>
         <div className={classes.page}>
-            <h1>Lineup</h1>
-            <h1>TBA</h1>
-            <h3>TO BE ANNOUNCED / FOLGT NOCH</h3>
+            <h1>LINEUP</h1>
             <div className={classes.container}>
-                { /*<img src={lagePlan} className={classes.image} alt="Time table des Festivals"></img>*/}
+                {<img src={lineup_essen} className={classes.image} alt="essens lineup (menü)"></img>}
+                {<img src={lineup_getränke} className={classes.image} alt="essens lineup (menü)"></img>}
+
             </div>
         </div>
     </>)

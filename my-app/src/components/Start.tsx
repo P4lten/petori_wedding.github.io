@@ -36,7 +36,7 @@ function Start() {
     return (
         <>
             <div className={classes.marquee}>
-                <span>Wir bitten um Zu- oder Absagen bis Ende Dezember !!!</span>
+                <span>*** Upates im Bereich Infos & FAQ ***</span>
             </div>
             <h2>Nur noch</h2>
             <div style={{ fontSize: "1.5rem", textAlign: "center" }}>
