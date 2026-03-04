@@ -5,11 +5,9 @@ import classes from "./LineUp.module.css"
 function Lineup() {
     return (<>
         <div className={classes.page}>
-            <h1>LINEUP</h1>
             <div className={classes.container}>
                 {<img src={lineup_essen} className={classes.image} alt="essens lineup (menü)"></img>}
                 {<img src={lineup_getränke} className={classes.image} alt="essens lineup (menü)"></img>}
-
             </div>
         </div>
     </>)

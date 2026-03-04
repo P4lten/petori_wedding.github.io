@@ -36,7 +36,7 @@ function Start() {
     return (
         <>
             <div className={classes.marquee}>
-                <span>*** Upates im Bereich Infos & FAQ ***</span>
+                <span>*** Upates im Bereich Lineup ***</span>
             </div>
             <h2>Nur noch</h2>
             <div style={{ fontSize: "1.5rem", textAlign: "center" }}>
